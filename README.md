@@ -32,22 +32,22 @@ This is a Telegram bot that downloads audio from YouTube and SoundCloud links an
    cd telegram-audio-downloader-bot
 
 
-2. Install dependencies:
+**2. Install dependencies:**
 
 pip install -r requirements.txt
 
-3. Set up the environment variables:
+**3. Set up the environment variables:**
 
 Copy .env.example to .env and fill in your Telegram bot token and password.
 But you can simply add in the main.py
 
 
-4. Run the bot:
+**4. Run the bot:**
 
 python main.py
 
 
-Contributing
+**Contributing**
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
