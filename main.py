@@ -12,7 +12,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Define your token here
 TOKEN = 'ABC' #Your Telegram token
 PASSWORD = '123'  # Set your password here(optional)
 
@@ -96,7 +95,6 @@ async def download_and_upload(update: Update, context: CallbackContext) -> None:
             await update.message.reply_text('Thanks for using my bot! 🌚')
             logger.info(f'File {file_title} sent to user.')
             
-            # Clear the download folder after sending the file
             clear_download_folder()
             logger.info('Cleared downloads folder.')
         else:
@@ -142,7 +140,7 @@ def main() -> None:
 
     logger.info('Starting bot')
 
-    # Start the folder monitoring thread
+    # Start folder monitoring thread
     start_monitoring()
 
     application.run_polling()
