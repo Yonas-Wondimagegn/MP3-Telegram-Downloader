@@ -7,7 +7,6 @@ This is a Telegram bot that downloads audio from YouTube and SoundCloud links an
 - **Download audio from YouTube and SoundCloud**: Send a link and get the audio file in MP3 format.
 - **Automatic cleanup**: Deletes all `.mp3` files in the download folder every 5 minutes.
 - **Manual cleanup**: Deletes all `.mp3` files in the download folder by using only /deletemp3 command on the bot.
-- **Password protection**: Use a password to clear the download folder manually though telegram bot.
 
 ## Commands
 
